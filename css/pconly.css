@@ -21,7 +21,7 @@ header {
     position: fixed;
     z-index: 1;
     width: 100%;
-    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.753);
 }
 
 header a {
@@ -129,3 +129,129 @@ ul a:hover {
 }
 
 /* SECTION 2 */
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 6rem;
+}
+
+.container2 h1 {
+    color: #000;
+}
+
+.more-about-us {
+    max-width: 50%;
+}
+
+.more-about-us > h1 {
+    font-weight: 500;
+    font-family: var(--font-serif);
+    font-size: 2.6rem;
+}
+
+.more-about-us > h1 > strong {
+    display: block;
+}
+
+.more-about-us h2 {
+    font-family: var(--font-sans-serif);
+    padding: 1rem 0 1.5rem 0;
+    line-height: 2rem;
+}
+
+.more-about-us p {
+    line-height: 1.5rem;
+    color: #505050c1;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+
+.more-about-us button {
+    cursor: pointer;
+    height: 45px;
+    width: 200px;
+    border: 0;
+    background-color: purple;
+    color: #fff;
+    font-family: var(--font-sans-serif);
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    border-radius: 2px;
+    transition-timing-function: ease;
+    transition: .3s;
+}
+
+.more-about-us button:hover {
+    background-color: #fff;
+    color: purple;
+    border: 2px solid purple;
+}
+
+/* SECTION3 */
+.container3 {
+    background-color: #f3f5f6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.frases {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.frases h1 {
+    font-weight: 500;
+    font-family: var(--font-serif);
+    font-size: 2.6rem;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+}
+
+.frases h1 em {
+    font-weight: bold;
+}
+
+.frases p {
+    line-height: 1.5rem;
+    color: #505050c1;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.container3 h1 {
+    color: #000000;
+}
+
+
+.rows-container p {
+    line-height: 1.5rem;
+}
+
+.row1, .row2, .row3  {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-bottom: .3rem;
+
+}
+
+
+.cards {
+    width: 350px;
+    height: 360px;
+    text-align: center;
+}
+
+
+.rows img {
+    width: 130px;
+}
+
+
+
