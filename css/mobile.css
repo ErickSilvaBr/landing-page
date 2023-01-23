@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1175px) {
+
+    .rows {
+        flex-wrap: wrap-reverse;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer p {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+
+    header {
+        top: -1px;
+
+    }
+    header ul {
+        display: none;
+    }
+
+    nav {
+        justify-content: center;
+    }
+    
+}
