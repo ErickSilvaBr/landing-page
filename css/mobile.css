@@ -76,7 +76,9 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 880px) {
-    
+    .image {
+        background-position: center center;
+    }
     .image {
         background-blend-mode: color;
         background-color: rgba(0, 0, 0, 0.39);
