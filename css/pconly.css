@@ -70,7 +70,7 @@ ul a {
 }
 
 ul a:hover {
-    border: 1px solid #fff;
+    text-decoration: underline;
 }
 
 /* MAIN */
